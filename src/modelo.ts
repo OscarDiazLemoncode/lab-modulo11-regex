@@ -1,11 +1,3 @@
-/* ['ES21 1465 0100 72 2030876293', true],
-    ['ES2114650100722030876293', true],
-    ['ES21-1465-0100-72-2030876293', true],
-    ['ES6621000418401234567891', true],
-    ['ES.211465 0100 72 2030876293', false],
-    ['ES-2114650100722030876293', false],
-    ['ES v21-1465-0100-72-2030876293', false],*/
-
 export const PATRON: RegExp =
   /^(?<pais>[A-Z]{2})(?<digitoControlPais>\d{2})(\s|-)?(?<entidad>\d{4})(\s|-)?(?<oficina>\d{4})(\s|-)?(?<digitoControl>\d{2})(\s|-)?(?<numeroCuenta>\d{10})$/gm;
 
